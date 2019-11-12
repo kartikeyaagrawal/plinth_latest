@@ -1,0 +1,162 @@
+
+
+@font-face {
+	font-family: 'NGC-Light';
+	src: url("fonts/NGC/NGCDINOnAir-Light.woff2") format("woff2"), url("fonts/NGC/NGCDINOnAir-Light.woff") format("woff"),
+		url("fonts/NGC/NGCDINOnAir-Light.ttf") format("truetype");
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: 'NGC-Medium';
+	src: url("fonts/NGC/NGCDINOnAir-Medium.woff2") format("woff2"), url("fonts/NGC/NGCDINOnAir-Medium.woff") format("woff"),
+		url("fonts/NGC/NGCDINOnAir-Medium.ttf") format("truetype");
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: 'NGC-Regular';
+	src: url("fonts/NGC/NGCDINOnAir-Regular.woff2") format("woff2"), url("fonts/NGC/NGCDINOnAir-Regular.woff") format("woff"),
+		url("fonts/NGC/NGCDINOnAir-Regular.ttf") format("truetype");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'NGC-CondBold';
+	src: url("fonts/NGC/NGCDINOnAir-CondBold.woff2") format("woff2"), url("fonts/NGC/NGCDINOnAir-CondBold.woff") format("woff"),
+		url("fonts/NGC/NGCDINOnAir-CondBold.ttf") format("truetype");
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'NGC-Bold';
+	src: url("fonts/NGC/NGCDINOnAir-Bold.woff2") format("woff2"), url("fonts/NGC/NGCDINOnAir-Bold.woff") format("woff"),
+		url("fonts/NGC/NGCDINOnAir-Bold.ttf") format("truetype");
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'NGC-Black';
+	src: url("fonts/NGC/NGCDINOnAir-Black.woff2") format("woff2"), url("fonts/NGC/NGCDINOnAir-Black.woff") format("woff"),
+		url("fonts/NGC/NGCDINOnAir-Black.ttf") format("truetype");
+	font-weight: 700;
+}
+/* ==========================================================================
+  Default tags
+========================================================================== */
+body {
+    width: 100%;
+    margin: 0;
+    font-family: Tahoma;
+  }
+  
+  /* Accordion controls 
+  ==========================================================================/
+  .control {
+    background-color: #de0000;
+    border-radius: 6px;
+    padding: 5px 10px;
+    border-style: none;
+    font-family: arial;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    outline: none;
+    margin: 10px;
+  }
+  
+  .control:hover {
+    cursor: pointer;
+    color: #e8e8e8;
+  }
+  
+  .control:active {
+    color: #000000;
+    padding: 4px 9px;
+    font-size: 0.95em;
+  }
+  
+  /* Main accordion container 
+  ========================================================================== */
+  .container{
+    padding-bottom:  100px;
+  }
+  .container .accordion {
+    background-color: transparent;
+    width: 90%;
+    margin: 10px auto 0;
+    padding: 5px 20px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.925);
+    border-radius: 20px;
+  }
+  
+  .accordion:hover {
+    cursor: pointer;
+  }
+  
+  /* Main accordion title 
+  ========================================================================== */
+  .accordion h1 {
+    display: inline;
+    font-weight: 100;
+    font-family: "NGC-Bold", sans-serif;
+    color: rgba(255, 255, 255, 0.829);
+    
+  }
+  
+  /* Main accordion arrow 
+  ========================================================================== */
+  .accordion button {
+    float: right;
+    
+    font-size: 20px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.767);
+    border-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    outline: none;
+  }
+  
+  /* Accordion dropdown panel
+  ========================================================================== */
+  .accordion-panel {
+    margin: 0 auto;
+    padding: 10px 15px;
+    min-width: 80%;
+    max-width: 85%;
+    border-width: 0px;
+    background-color: #fafafad4;
+    background-color: transparent;
+    font-family: "NGC-Medium", sans-serif;
+    border-color: #e3e3e3;
+    border-style: solid;
+    border-top: none;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 1.5em;
+   
+  }
+  .accordion-panel p{
+    text-decoration-color: white;
+    color: rgba(255, 255, 255, 0.829);
+  }
+  
+  /* Rotate class for dropdown button
+  ========================================================================== */
+  
+  .rotate {
+    -moz-transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+  }
+  
+  .rotate.up {
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  
