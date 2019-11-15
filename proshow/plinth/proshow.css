@@ -462,24 +462,24 @@ body {
 
 @media screen and (max-width: 576px) {
 	.rounded{
-		height: 50px;
-		width: 100px;
-		padding-top: 15px;
+		height: 50px ! important;
+		width: 100px !important;
+		padding-top: 15px !important;
 		
 	}
 }
 @media screen and (max-width: 768px) {
 	.rounded{
-		height: 600px;
-		padding-top: 15px;
-		width: 200px;
+		height: 300px !important;
+		padding-top: 15px !important;
+		width: 200px !important;
 		
 	}
 }
 @media screen and (max-width: 992px) {
 .rounded{
-		height: 600px;
-		padding-top: 15px;
+		height: 400px !important;
+		padding-top: 15px !important;
 		
 		
 	}
